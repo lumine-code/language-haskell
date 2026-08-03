@@ -1,0 +1,12 @@
+{
+  ".source.haskell": {
+    "language": {
+      "commentStart": "-- ",
+      "increaseIndentPattern": "\\{[^}\"']*$",
+      "decreaseIndentPattern": "^\\s*\\}"
+    },
+    "bracket-matcher": {
+      "autocompleteCharacters": ["()", "[]", "{}", "\"\"", "''"]
+    }
+  }
+}

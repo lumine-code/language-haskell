@@ -1,0 +1,21 @@
+{
+  "name": "Haskell",
+  "scopeName": "source.haskell",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-haskell",
+  "injectionRegex": "^(haskell)$",
+  "fileTypes": ["hs", "hs-boot", "hsig"],
+  "comments": {
+    "start": "-- "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:tree-sitter/tree-sitter-haskell#v0.23.1",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-haskell/tree-sitter-haskell.wasm",
+    "highlightsQuery": "tree-sitter-haskell/highlights.scm",
+    "localsQuery": "tree-sitter-haskell/locals.scm"
+  }
+}
