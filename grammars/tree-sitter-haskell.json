@@ -1,7 +1,7 @@
 {
   "name": "Haskell",
   "scopeName": "source.haskell",
-  "type": "modern-tree-sitter",
+  "type": "tree-sitter",
   "parser": "tree-sitter-haskell",
   "injectionRegex": "^(haskell)$",
   "fileTypes": ["hs", "hs-boot", "hsig"],
