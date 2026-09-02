@@ -126,11 +126,17 @@
 
 ; ----------------------------------------------------------------------------
 ; Functions and variables
-(decl
-  [
-   name: (variable) @entity.name.function.haskell
-   names: (binding_list (variable) @entity.name.function.haskell)
-  ])
+(decl/function
+  name: (variable) @entity.name.function.haskell)
+
+(decl/bind
+  name: (variable) @entity.name.function.haskell)
+
+(decl/signature
+  name: (variable) @entity.name.function.haskell)
+
+(decl/signature
+  names: (binding_list (variable) @entity.name.function.haskell))
 
 (decl/bind
   name: (variable) @variable.other.haskell)
@@ -145,9 +151,9 @@
   name: (variable) @_IGNORE_.name
   type: (type))
   .
-  (decl
-    name: (variable) @variable.other.haskell)
-    match: (_)
+  (decl/bind
+    name: (variable) @variable.other.haskell
+    match: (_))
   (#eq? @_IGNORE_.name @variable.other.haskell))
 
 ; but consider a type that involves 'IO' a decl/function
@@ -163,9 +169,9 @@
     constructor: (name) @_IGNORE_.type)
   (#eq? @_IGNORE_.type "IO"))
   .
-  (decl
-    name: (variable) @entity.name.function.haskell)
-    match: (_)
+  (decl/bind
+    name: (variable) @entity.name.function.haskell
+    match: (_))
   (#eq? @_IGNORE_.name @entity.name.function.haskell))
 
 ((decl/signature) @entity.name.function.haskell
