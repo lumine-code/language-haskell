@@ -3,7 +3,7 @@
   "scopeName": "source.haskell",
   "type": "tree-sitter",
   "parser": "tree-sitter-haskell",
-  "injectionRegex": "^(haskell)$",
+  "injectionNames": ["haskell"],
   "fileTypes": ["hs", "hs-boot", "hsig"],
   "comments": {
     "start": "-- "
@@ -14,8 +14,8 @@
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:tree-sitter/tree-sitter-haskell#v0.23.1",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-haskell/tree-sitter-haskell.wasm",
-    "highlightsQuery": "tree-sitter-haskell/highlights.scm",
-    "localsQuery": "tree-sitter-haskell/locals.scm"
+    "grammar": "haskell.wasm",
+    "highlightsQuery": "haskell-highlights.scm",
+    "localsQuery": "haskell-locals.scm"
   }
 }
