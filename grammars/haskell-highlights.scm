@@ -409,7 +409,6 @@
     .
     (variable) @support.other.function.haskell))
 
-; Highlighting of quasiquote_body for other languages is handled by injections.scm
 ; ----------------------------------------------------------------------------
 ; Exceptions/error handling
 ((variable) @keyword.control.exception.haskell
