@@ -15,6 +15,7 @@
     "parserSource": "github:tree-sitter/tree-sitter-haskell#v0.23.1",
     "wasmBuildTool": "tree-sitter-cli#v0.27.0",
     "grammar": "haskell.wasm",
+    "tagsQuery": "haskell-tags.scm",
     "highlightsQuery": "haskell-highlights.scm",
     "injectionsQuery": "haskell-injections.scm",
     "localsQuery": "haskell-locals.scm"

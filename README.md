@@ -5,6 +5,7 @@ Haskell language support.
 ## Features
 
 - **Grammars**: provides Tree-sitter grammars, built from [tree-sitter-haskell](https://github.com/tree-sitter/tree-sitter-haskell).
+- **Symbols**: modules, functions, operators, types, constructors and class methods.
 - **Syntax highlighting**: full tree-sitter grammar coverage for Haskell files.
 - **Folding**: folds blocks from the parse tree rather than by indentation.
 

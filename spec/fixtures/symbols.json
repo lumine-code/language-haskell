@@ -1,0 +1,48 @@
+{
+  "source.haskell": {
+    "text": "module Demo where\ndata Colour = Red | Blue\ntype Alias = Int\nnewtype Box = Box Int\nclass Present a where\n  present :: a -> String\ngreet :: String -> String\ngreet name = name\ncount = 1\n-- phantom x = x\n",
+    "symbols": [
+      {
+        "name": "Demo",
+        "tag": "module"
+      },
+      {
+        "name": "Colour",
+        "tag": "type"
+      },
+      {
+        "name": "Red",
+        "tag": "constructor"
+      },
+      {
+        "name": "Blue",
+        "tag": "constructor"
+      },
+      {
+        "name": "Alias",
+        "tag": "type"
+      },
+      {
+        "name": "Box",
+        "tag": "type"
+      },
+      {
+        "name": "Present",
+        "tag": "class"
+      },
+      {
+        "name": "present",
+        "tag": "method"
+      },
+      {
+        "name": "greet",
+        "tag": "function"
+      },
+      {
+        "name": "count",
+        "tag": "variable"
+      }
+    ],
+    "absent": ["Phantom", "phantom"]
+  }
+}
