@@ -9,11 +9,14 @@
  (type_family name: (_) @name)] @definition.type
 (data_constructor constructor: (prefix name: (_) @name)) @definition.constructor
 (newtype_constructor name: (_) @name) @definition.constructor
-(field name: (field_name) @name @definition.field)
+(field name: (field_name) @name
+  (#set! symbol.tag "field"))
 (class_declarations (signature name: (_) @name) @definition.method)
-(class_declarations (signature names: (binding_list name: (_) @name @definition.method)))
+(class_declarations (signature names: (binding_list name: (_) @name)
+  (#set! symbol.tag "method")))
 (function (infix operator: (_) @name)) @definition.function
 (data_constructor constructor: (record name: (_) @name)) @definition.constructor
 (data_constructor constructor: (infix operator: (_) @name)) @definition.constructor
 (gadt_constructor name: (_) @name) @definition.constructor
-(gadt_constructor names: (binding_list name: (_) @name @definition.constructor))
+(gadt_constructor names: (binding_list name: (_) @name)
+  (#set! symbol.tag "constructor"))
