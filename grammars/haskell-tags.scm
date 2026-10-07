@@ -5,7 +5,7 @@
 (class name: (_) @name) @definition.class
 [(data_type name: (_) @name)
  (newtype name: (_) @name)
- (type_synomym name: (_) @name)
+ (type_synonym name: (_) @name)
  (type_family name: (_) @name)] @definition.type
 (data_constructor constructor: (prefix name: (_) @name)) @definition.constructor
 (newtype_constructor name: (_) @name) @definition.constructor

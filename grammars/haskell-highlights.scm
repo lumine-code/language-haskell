@@ -63,6 +63,7 @@
   "then"
   "else"
   "case"
+  "cases"
   "of"
 ] @keyword.control.conditional.haskell
 
