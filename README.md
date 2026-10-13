@@ -8,6 +8,8 @@ Haskell language support.
 - **Symbols**: modules, functions, operators, types, constructors and class methods.
 - **Syntax highlighting**: full tree-sitter grammar coverage for Haskell files.
 
+![Haskell syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-haskell` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-haskell`.

@@ -1,0 +1,16 @@
+{
+  "title": "language-haskell",
+  "description": "Haskell syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "d18a3c80c81e6ee9572c7ad0408b12e2df8bd053",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "Haskell syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}
