@@ -1,16 +1,61 @@
 {
   "title": "language-haskell",
-  "description": "Haskell syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "d18a3c80c81e6ee9572c7ad0408b12e2df8bd053",
+  "description": "Haskell syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "bffe137c9587ddacc8b1c89d5ae2e38d189baba5",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "16a09a30256d7ced901ed8998c2acee2ff3abd42c84871b8d5baecaf4babf293",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 360 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "c4d7a05fe6960ae6fb041981d6cf13e9c0286b17",
+      "dirty": true,
+      "workingTreeHash": "af0ec098e764416df9522f3c6e555050b520e4700da382b2b983b2ff3742bd0a"
+    },
+    "package": {
+      "revision": "bffe137c9587ddacc8b1c89d5ae2e38d189baba5",
+      "dirty": true,
+      "workingTreeHash": "4c906aea958edb0e6331401cebd4ba4d3f683fe639d379b02cde402eb9a6e20a"
+    },
+    "language-haskell": {
+      "revision": "bffe137c9587ddacc8b1c89d5ae2e38d189baba5",
+      "dirty": true,
+      "workingTreeHash": "4c906aea958edb0e6331401cebd4ba4d3f683fe639d379b02cde402eb9a6e20a"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "50ec2f83a6347dd8113870992ec4eb2be4014f3d9e12213c2f51b543f1eca793"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.hs",
+      "sha256": "4e5a856dbfa636c972a92dc98d7e94f7d7cff597c165915b9bbd44882da344f3"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "Haskell syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 360
+      "height": 360,
+      "sha256": "081a1b043322d66badfe0d3c74dccd2f730f18d4f037c691e4436ba8f93700ce"
     }
   ]
 }
