@@ -13,7 +13,7 @@
     // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:tree-sitter/tree-sitter-haskell#97288e585b0bd44199720280d067fa35bacd81ff",
-    "wasmBuildTool": "tree-sitter-cli#v0.27.0",
+    "wasmBuildTool": "tree-sitter-cli#v0.27.1",
     "grammar": "haskell.wasm",
     "tagsQuery": "haskell-tags.scm",
     "highlightsQuery": "haskell-highlights.scm",
