@@ -33,9 +33,15 @@
 
 (unit) @constant.other.symbol.haskell ; unit, as in ()
 
-(comment) @comment.line.haskell
+((comment) @comment.line.haskell
+  (#match? @comment.line.haskell "^--"))
+((comment) @comment.block.haskell
+  (#match? @comment.block.haskell "^{\\-"))
 
-((haddock) @comment.block.documentation.haskell)
+((haddock) @comment.line.documentation.haskell
+  (#match? @comment.line.documentation.haskell "^--"))
+((haddock) @comment.block.documentation.haskell
+  (#match? @comment.block.documentation.haskell "^{\\-"))
 
 ; ----------------------------------------------------------------------------
 ; Punctuation
