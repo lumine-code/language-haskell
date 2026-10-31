@@ -1,10 +1,16 @@
 {
   ".source.haskell": {
     "bracket-matcher": {
-      "autocompleteCharacters": ["()", "[]", "{}", "\"\"", "''"]
+      "autocompleteCharacters": ["()", "[]", "{}", "\"\"", "''"],
+      "autocompleteDisabledCharacters": ["'"]
     },
     "editor": {
-      "commentStart": "-- "
+      "commentStart": "-- ",
+      "nonWordCharacters": "/\\()\":,.;<>~!@#$%^&*|+=[]{}`?-…",
+      "commentDelimiters": {
+        "line": "--",
+        "block": ["{-", "-}"]
+      }
     }
   }
 }
