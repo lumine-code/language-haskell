@@ -18,6 +18,7 @@
     "tagsQuery": "haskell-tags.scm",
     "highlightsQuery": "haskell-highlights.scm",
     "injectionsQuery": "haskell-injections.scm",
-    "localsQuery": "haskell-locals.scm"
+    "localsQuery": "haskell-locals.scm",
+    "indentsQuery": "haskell-indents.scm"
   }
 }
