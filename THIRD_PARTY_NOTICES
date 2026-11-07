@@ -2,6 +2,9 @@
 Source: https://github.com/tree-sitter/tree-sitter-haskell
 Revision: 97288e585b0bd44199720280d067fa35bacd81ff
 
+Parser source: github:tree-sitter/tree-sitter-haskell#97288e585b0bd44199720280d067fa35bacd81ff
+Resolved commit: 97288e585b0bd44199720280d067fa35bacd81ff
+
 Original file: LICENSE
 
 The MIT License (MIT)
